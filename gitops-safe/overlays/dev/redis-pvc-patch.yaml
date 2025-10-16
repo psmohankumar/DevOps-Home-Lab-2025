@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: redis
+  namespace: humor-game
+spec:
+  template:
+    spec:
+      volumes:
+        - name: redis-data
+          persistentVolumeClaim:
+            claimName: redis-pvc
+      containers:
+        - name: redis
+          volumeMounts:
+            - name: redis-data
+              mountPath: /data
