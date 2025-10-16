@@ -30,6 +30,5 @@ commonAnnotations:
 
 # No patches or transformations for now
 # This ensures your working app stays exactly as is
-# Patches to ensure monitoring overlay explicitly includes necessary mounts
-patchesStrategicMerge:
-  - redis-pvc-patch.yaml
+## No patches or transformations for now
+## This ensures your working app stays exactly as is
