@@ -8,7 +8,7 @@ spec:
     - namespace: gitops-demo
       server: https://kubernetes.default.svc
   sourceRepos:
-    - 'https://github.com/Osomudeya/DevOps-Home-Lab-2025.git'
+    - 'https://github.com/psmohankumar/DevOps-Home-Lab-2025.git'
   clusterResourceWhitelist: []        # no cluster-scoped perms
   namespaceResourceWhitelist:
     - group: '*'

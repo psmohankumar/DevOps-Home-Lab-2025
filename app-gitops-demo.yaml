@@ -9,7 +9,7 @@ spec:
     namespace: gitops-demo
     server: https://kubernetes.default.svc
   source:
-    repoURL: https://github.com/Osomudeya/DevOps-Home-Lab-2025.git
+    repoURL: https://github.com/psmohankumar/DevOps-Home-Lab-2025.git
     targetRevision: home-lab
     path: gitops-demo/base
   syncPolicy:
