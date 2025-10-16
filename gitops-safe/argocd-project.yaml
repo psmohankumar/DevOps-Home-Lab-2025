@@ -32,6 +32,10 @@ spec:
     kind: Service
   - group: ''
     kind: PersistentVolumeClaim
+  - group: 'apps'
+    kind: ReplicaSet
+  - group: ''
+    kind: Pod
   
   # Resource deny list - prevent dangerous operations
   clusterResourceBlacklist:
